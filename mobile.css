@@ -1,0 +1,14 @@
+@media screen and (max-width: 700px) {
+    .dostijenie p {
+        font-size: 5vw;
+    }
+    .dostijenia {
+        flex-direction: column;
+    }
+    .dostijenie {
+        width: 80vw;
+    }
+    .vrapper {
+        background-position: -130px;
+    }
+}

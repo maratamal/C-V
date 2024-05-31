@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&family=Pacifico&family=Rubik+Bubbles&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pacifico", cursive;
+}
+.vrapper{
+    /* height: 100vh; */
+    /* background-color: rgb(87, 175, 233); */
+    background: url(marat.jpg);
+    background-size: cover;
+}
+.sise{
+    width: 100%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    
+}
+.text p{
+    font-size: 35px;
+    background-color: #7d96db;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px 15px 15px;
+    
+    font-weight: 400;
+    font-style: normal;
+}
+.block-2{
+    /* background-color: rgb(40 126 181);
+    background-image: url('snowing.png'); */
+    background-position-y: 0px;
+    padding: 100px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    /* background-size: 2%; */
+} 
+.dostijenia{
+    /* background-color: rgb(255, 251, 0); */
+    display: flex;
+    gap: 2vw;
+}
+.dostijenie{
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    padding: 40px 20px;
+    border-radius: 10px;
+
+}
+.block-2 h1 {
+    color: white;
+}
+.dostijenie p{
+    color: white;
+    /* -webkit-text-stroke: 2px black; */
+    text-shadow: 2px 2px 2px black;
+    font-size: 3vw;
+    line-height: 33px;
+}
+.foto h1 {
+    text-align: center;
+    margin: 50px;
+    color: rgb(252, 252, 252);
+}
+.foto img {
+    width: 24.5%;
+    /* height: 25%; */
+    margin: 0.225vw;
+}
+.fotki {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+}
+.foto {
+    /* background-color: rgb(4, 221, 221); */
+    padding: 50px 0;
+}
+body {
+    background-image: url('snowing.png');
+    background-position-y: 0px;
+    background-size: 2%;
+}
